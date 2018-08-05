@@ -1,0 +1,45 @@
+h1 {
+    font-family: 'Bitter', serif;
+    text-align: center;
+
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 3px 3px 1px #c8c8c8;
+
+}
+
+html {
+    background-color: #f7f7f7;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #e6e6e6;
+    width: 600px;
+    margin: 0 auto;
+
+    border: 5px solid black;
+    padding: 0px 20px 20px 20px;
+
+}
+
+
+
+p, li {
+    line-height: 2;
+    letter-spacing: 1px;
+    list-style: none;
+}
+
+img {
+    max-height: 400px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+p {
+    text-align: justify;
+
+}
+
