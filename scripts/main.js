@@ -10,19 +10,19 @@ myImage.onclick = function() {
 }
 
 var myButton = document.querySelector('button');
-var myHeading = document.querySelector('h1');
+var myHeading = document.querySelector('h2');
 
 function setUserName() {
     var myName = prompt('Please enter your name.');
     localStorage.setItem('name', myName);
-    myHeading.textContent = 'Mozilla is cool, ' + myName;
+    myHeading.textContent = 'Hello, ' + myName + '. Welcome to the site.';
   }
 
   if(!localStorage.getItem('name')) {
     setUserName();
   } else {
 
-    myHeading.textContent = 'Mozilla is cool, ' + localStorage.getItem('name');
+    myHeading.textContent = 'Hello, ' + localStorage.getItem('name') + '. Welcome to the site.';
   }
 
   myButton.onclick = function() {
